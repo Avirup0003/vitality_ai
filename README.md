@@ -33,7 +33,7 @@ Responses should be concise, engaging, and safe.
 Persistence via Firestore ensures chats/favorites are not lost.
 
 ## 💡 3. AI Prompts & Iterations
-We iterated on system prompts for Gemini:
+We iterated on system prompts for Open Ai:
 
 Initial prompt: Too verbose and clinical.
 
@@ -50,7 +50,7 @@ Keep answers concise and readable.
 ## 🏗️ 4. Architecture & Code Structure
 Framework: Next.js + Tailwind CSS + shadcn/ui
 
-AI Layer: Gemini API (@google/generative-ai)
+AI Layer: Open AI API
 
 Auth: Clerk (@clerk/nextjs)
 
@@ -72,9 +72,16 @@ context/             # Context providers (chat state)
 lib/                 # Firebase, AI, and Clerk configs
 public/images/       # Hero, about, and feature illustrations
 ## 🖼️ 5. Screenshots
+### Hero Section
 ![Hero Section](./public/screenshots/hero.png)
+### About Page
 ![About Page](./public/screenshots/about.png)
+### Chat Page
 ![Chat Page](./public/screenshots/chat.png)
+### History Page
+![History Page](./public/screenshots/history.png)
+### Favorites Page
+![Favorites Page](./public/screenshots/favorites.png)
 ## 🐞 6. Known Issues / Improvements
 Improve AI streaming for smoother typing effect.
 
